@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 
-import "../styles/globals.css";
-
 export default function Dashboard() {
   const [data, setData] = useState<any[]>([]);
   const [selectedToken, setSelectedToken] = useState<string>("");
